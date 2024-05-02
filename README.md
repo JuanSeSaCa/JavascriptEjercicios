@@ -247,7 +247,7 @@ Escribir una función llamada pares que reciba un arreglo de números y retorne 
 
 // escribe tu función acá
 
-// código de prueba
+// código de prueba 
 console.log(pares([1, 2, 3, 4, 5, 6])) // [2, 4, 6]
 console.log(pares([])) // []
 
