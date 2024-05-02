@@ -213,6 +213,7 @@ Nota: Intentarlo hacer sin el método Math.max de JavaScript.
 console.log(max([3, 9, 6])) // 9
 console.log(max([67, 35, 54, 26])) // 67
 console.log(max([5, 9, 2, 4, 5, 7])) // 9
+
 19. Encontrar el número mínimo
 Escribir una función llamada min que reciba un arreglo de números y retorne el número mínimo:
 
@@ -224,6 +225,7 @@ Nota: Intentarlo hacer sin el método Math.min de JavaScript.
 console.log(min([3, 9, 6])) // 3
 console.log(min([67, 35, 54, 26])) // 26
 console.log(min([5, 9, 2, 4, 5, 7])) // 2
+
 20. Generar contraseña
 Escribir una función llamada password que reciba un string y retorne un nuevo string realizando los siguientes cambios:
 
