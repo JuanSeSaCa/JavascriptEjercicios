@@ -241,6 +241,7 @@ Reemplaza el carater “o” por “0”.
 console.log(password("hola")) // "h0l4"
 console.log(password("esta es una prueba")) // "3st43sun4pru3b4"
 console.log(password("")) // ""
+
 21. Encontrar números pares en un arreglo
 Escribir una función llamada pares que reciba un arreglo de números y retorne un nuevo arreglo con los números pares únicamente.
 
@@ -249,6 +250,7 @@ Escribir una función llamada pares que reciba un arreglo de números y retorne 
 // código de prueba
 console.log(pares([1, 2, 3, 4, 5, 6])) // [2, 4, 6]
 console.log(pares([])) // []
+
 22. Encontrar posiciones de números pares
 Escribir una función llamada posiciones que reciba un arreglo de números y retorne un nuevo arreglo con las posiciones donde se encuentran números pares.
 
@@ -257,6 +259,7 @@ Escribir una función llamada posiciones que reciba un arreglo de números y ret
 // código de prueba
 console.log(posiciones([1, 2, 3, 4, 5, 6])) // [1, 3, 5]
 console.log(posiciones([])) // []
+
 23. Duplicar elementos de un arreglo
 Escribir una función llamada duplicar que reciba un arreglo de números y retorne un nuevo arreglo donde cada número esté multiplicado por dos (2).
 
@@ -265,6 +268,7 @@ Escribir una función llamada duplicar que reciba un arreglo de números y retor
 // código de prueba
 console.log(duplicar([1, 2, 3])) // [2, 4, 6]
 console.log(duplicar([])) // []
+
 24. Encontrar palabras que empiecen por "a"
 Escribir una función llamada empiezanConA que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que empiecen por "a" (mayúscula o minúscula).
 
@@ -274,6 +278,7 @@ Escribir una función llamada empiezanConA que reciba un arreglo de strings y re
 console.log(empiezanConA(["beta", "alfa", "Arbol", "gama"])) // ["alfa", "Arbol"]
 console.log(empiezanConA(["beta", "delta", "gama"])) // []
 console.log(empiezanConA([])) // []
+
 25. Encontrar palabras que terminan en "s"
 Escribir una función llamada terminanConS que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que terminan con "s" (mayúscula o minúscula).
 
@@ -283,6 +288,7 @@ Escribir una función llamada terminanConS que reciba un arreglo de strings y re
 console.log(terminanConS(["pruebas", "arroz", "árbol", "tokens"])) // ["pruebas", "tokens"]
 console.log(terminanConS(["beta", "delta", "gama"])) // []
 console.log(terminanConS([])) // []
+
 26. Imprimir una matriz
 Escribir una función llamada imprimirMatriz que reciba una matriz (un arreglo de arreglos) e imprima todos los elementos del arreglo.
 
@@ -304,6 +310,7 @@ console.log(imprimirMatriz([
 // 7
 // 8
 // 9
+
 27. Traducir números a palabras
 Escribir una función llamada numerosAPalabras que reciba un arreglo de números (cada número en el rango de 0 a 0) y retorne un nuevo arreglo convirtiendo cada número a su versión en palabras.
 
@@ -312,6 +319,7 @@ Escribir una función llamada numerosAPalabras que reciba un arreglo de números
 // código de prueba
 console.log(numerosAPalabras([0, 1, 2, 3, 4])) // ["cero", "uno", "dos", "tres", "cuatro"]
 console.log(numerosAPalabras([5, 6, 7, 8, 9])) // ["cinco", "seis", "siete", "ocho", "nueve"]
+
 28. Traducir palabras a números
 Escribir una función llamada palabrasANumeros que reciba un arreglo de strings y retorne un nuevo arreglo traduciendo cada palabra a su versión numérica (del 0 al 9). Si la palabra no es un número traducir a -1.
 
@@ -320,6 +328,7 @@ Escribir una función llamada palabrasANumeros que reciba un arreglo de strings 
 // código de prueba
 console.log(["cero", "uno", "dos", "tres", "what?", "cuatro"]) // [0, 1, 2, 3, -1, 4]
 console.log(["cinco", "seis", "siete", "ocho", "nueve"]) // [5, 6, 7, 8, 9]
+
 29. Número de asteriscos en un arreglo
 Escribir una función llamada numAsteriscos que reciba un arreglo y retorne el número de asteriscos:
 
@@ -329,6 +338,7 @@ Escribir una función llamada numAsteriscos que reciba un arreglo y retorne el n
 console.log(numAsteriscos(['', '*', '', '*'])) // 2
 console.log(numAsteriscos(['*', '*', '*'])) // 3
 console.log(numAsteriscos([])) // 0
+
 30. Número de asteriscos en una matriz
 Escribir una función llamada numAsteriscos que reciba una matriz (un arreglo de arreglos) y retorne el número de asteriscos:
 
@@ -341,6 +351,7 @@ console.log(numAsteriscos([
   ['*', '', '*']
 ]))
 // 5
+
 31. Distancia entre dos strings
 Escribir una función llamada distancia que reciba dos strings y retorne el número de caracteres diferentes (comparando posición por posición).
 
