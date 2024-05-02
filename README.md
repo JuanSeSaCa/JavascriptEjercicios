@@ -191,6 +191,7 @@ Escribir una función llamada capitalizar que reciba un string y capitalice la p
 console.log(capitalizar("pedro")) // "Pedro"
 console.log(capitalizar("hola mundo")) // "Hola mundo"
 console.log(capitalizar("")) // ""
+
 17. Capitalizar cada palabra
 Escribir una función llamada capitalizar que reciba un string y capitalice la primera letra de cada palabra:
 
@@ -200,6 +201,7 @@ Escribir una función llamada capitalizar que reciba un string y capitalice la p
 console.log(capitalizar("hola mundo")) // "Hola Mundo"
 console.log(capitalizar("make it real")) // "Make It Real"
 console.log(capitalizar("")) // ""
+
 18. Encontrar el número máximo
 Escribir una función llamada max que reciba un arreglo de números y retorne el número máximo:
 
